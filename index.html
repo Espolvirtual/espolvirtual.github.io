@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script>
+    function initMap(): void {
+    map = new google.maps.Map(document.getElementById("map") as HTMLElement, {
+    center: { lat: -34.397, lng: 150.644 },
+    zoom: 8,
+    });
+    }
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5ELY16X3WP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5ELY16X3WP');
+</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa del campus ESPOL</title>
+</head>
+
+<body bgcolor="grey">
+    <div style="height: 97.5vh;">
+        <iframe src="https://www.google.com/maps/d/u/2/embed?mid=1k-W2dd19fCyOlCP2dTp-BXSLQ7YrB18&ehbc=2E312F" width="100%" height="100%"></iframe>
+    </div>
+</body>
+
+</html>
